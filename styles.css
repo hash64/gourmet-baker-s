@@ -1,0 +1,119 @@
+.carousel-img{
+	height:700px;
+	width: 100%;
+}
+.container-fluid{
+	padding-top: 10px;
+}
+.navbar, .nav-link, .navbar-brand{
+	padding-right: 19px;
+}
+input{
+	text-align: center;
+	color: #555;
+}
+.contact-form {
+    padding: 50px;
+}
+.contact-form h1 {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+.contact-form .form-control, .contact-form .btn  {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.contact-form .btn-primary {
+    min-width: 150px;
+    background: #333;
+    border: none;
+    border-radius: 5px;
+}
+.contact-form .btn-primary:hover {
+    background: #1c8cd7; 
+}
+.contact-form label {
+    opacity: 0.9;
+}
+.contact-form textarea {
+    resize: vertical;
+}
+.hint-text {
+    font-size: 15px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+
+.fa, .copyright{
+	color:#ddd;
+	font-size: 28px;
+	word-spacing: 2px;
+}
+.footer{
+	padding-bottom: 10px ;
+	padding-top: 10px;
+	background-color: #333;
+}
+.fa{
+	margin-right: 10px;
+}
+.scroll-top{
+	color: #fff;
+	background-color: #222;
+	border-radius: 3px;
+    bottom: 60px;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    right: 30px;
+    padding-right: 2px;
+    padding-top: 2px;
+    text-align: right;
+    width: 40px;
+    z-index: 999;
+    display: block;
+}
+.contact{
+	background-color: #eee;
+}
+
+button{
+	color:#fff;
+	background-color: #333;
+}
+.blog-detail{
+	background-color: #333;
+	color: #777;
+	padding: 20px;
+	margin-bottom: 0px;
+}
+ ul,p {
+	font-weight: 500;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+}
+
+.blog{
+	width:100%;
+	padding: 10px;
+	background-color: #ddd;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+	.carousel-img{
+		height: 300px;
+	}
+}
+
+@media only screen and (max-width: 800px) and (min-width: 601px)   {
+	.carousel-img{
+		height: 500px;
+	}
+}
+
+@media only screen and (max-width: 399px)    {
+	.carousel-img{
+		height: 250px;
+	}
+}
